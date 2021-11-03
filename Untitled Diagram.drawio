@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T20:44:15.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.6.8" etag="9o7pi1MOR6dEvjp7TI8i" type="github"><diagram id="Mpn5DSs9-5wo9sW-4-BC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-03T20:57:27.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="MPpyVGuPFlAjTRSkXgWK" version="15.6.8" type="github">
+  <diagram id="Mpn5DSs9-5wo9sW-4-BC" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P-HiO-SrmV6RSXvtt0F7-1" target="P-HiO-SrmV6RSXvtt0F7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P-HiO-SrmV6RSXvtt0F7-1" target="P-HiO-SrmV6RSXvtt0F7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-1" value="Am I below 1000m?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="250" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="P-HiO-SrmV6RSXvtt0F7-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="405" y="200" />
+              <mxPoint x="240" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-2" value="Wait 100ms" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="355" y="250" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-4" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="260" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="P-HiO-SrmV6RSXvtt0F7-6" target="P-HiO-SrmV6RSXvtt0F7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-6" value="Deploy parachute" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-8" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="360" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P-HiO-SrmV6RSXvtt0F7-9" target="P-HiO-SrmV6RSXvtt0F7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-9" value="Am I at or &lt;br&gt;below 0m?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="560" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="P-HiO-SrmV6RSXvtt0F7-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="610" />
+              <mxPoint x="310" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-12" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="620" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-13" value="Turn on transponder beacon" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="700" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-15" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="670" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="P-HiO-SrmV6RSXvtt0F7-16" target="P-HiO-SrmV6RSXvtt0F7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-HiO-SrmV6RSXvtt0F7-16" value="Re-enter atmosphere" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
